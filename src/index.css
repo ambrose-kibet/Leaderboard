@@ -1,0 +1,91 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400');
+
+html {
+  font-size: 100%;
+} /* 16px */
+:root {
+  --clr--primary: #272a31;
+  --clr--secondary: #ec5242;
+  --clr-tertiary: #d3d3d3;
+  --max-width: 1280px;
+
+  /* box shadows */
+  --shadow-1: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-2: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-3: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-4:
+    0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-5: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --transition: all 0.3s ease-in-out;
+}
+
+body {
+  background: var(--clr-tertiary);
+  font-family: 'Lato', 'cocogoose', sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 3.052rem;
+  text-transform: capitalize;
+  color: var(--clr--secondary);
+  margin: 0.2rem;
+  margin-top: 0;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2.441rem;
+}
+
+h3 {
+  font-size: 1.953rem;
+  margin: 0.2rem;
+}
+
+h4 {
+  font-size: 1.563rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+small,
+.text_small {
+  font-size: 0.8rem;
+}
+
+nav,
+main,
+footer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
