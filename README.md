@@ -28,7 +28,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Villain-Con <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
 **LeaderBoard** Is a project thats allows it user to get snd post scores to a leaderboard api.
 
