@@ -52,7 +52,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://ambrose-kibet.github.io/VIllain-con-capstone-project/)
-- [Video Demo Link](https://www.loom.com/share/97e40c3ca1f245c998d470d90a986101)
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -65,7 +65,7 @@ To get this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clonehttps://github.com/ambrose-kibet/VIllain-con-capstone-project.git
+  gitclone https://github.com/ambrose-kibet/Leaderboard.git
 ```
 
 - <!-- AUTHORS -->
@@ -84,7 +84,6 @@ To get this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **News Page**
 - [ ] **Sponsor page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -103,8 +102,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project star it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -114,7 +111,7 @@ If you like this project star it.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse.org
-I would like to acknowledge [cindyShin](https://www.behance.net/adagio07) for the project design.
+I would like to acknowledge Leaderboard API service for provideing a free API to write and get our data.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
