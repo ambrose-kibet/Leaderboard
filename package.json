@@ -5,15 +5,13 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack serve",
-    "deploy": "gh-pages -d dist"
+    "dev": "webpack serve"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "css-loader": "^6.7.3",
-    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
     "sass": "^1.58.0",
     "sass-loader": "^13.2.0",
