@@ -51,7 +51,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://ambrose-kibet.github.io/VIllain-con-capstone-project/)
+- [Live Demo Link](https://ambrose-kibet.github.io/leaderboard)
 
 <!-- GETTING STARTED -->
 
