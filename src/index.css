@@ -62,6 +62,7 @@ h1 {
 
 h2 {
   font-size: 2.441rem;
+  margin: 0.5rem 0;
 }
 
 h3 {
@@ -87,12 +88,20 @@ main,
 footer {
   display: grid;
   justify-content: center;
-  align-items: center;
+}
+
+main {
+  min-height: calc(100vh - 3rem);
 }
 
 .container {
   width: 100vw;
   max-width: var(--max-width);
+}
+
+.title {
+  background: var(--clr--primary);
+  height: min-content;
 }
 
 .section-container {
@@ -109,6 +118,13 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-right: 0.5rem;
+}
+
+.refresh-btn {
+  margin: 0;
+  border: none;
+  outline: 1pt solid black;
 }
 
 @media screen and (min-width: 768px) {
@@ -120,10 +136,15 @@ footer {
 .btn {
   background: transparent;
   padding: 0.5rem;
+  border-radius: 0.25rem;
+  transition: all 0.3s ease-in-out;
 }
 
-.btn :hover {
+.btn:hover {
   cursor: pointer;
+  color: white;
+  background: rgb(96, 194, 96);
+  font-weight: bold;
 }
 
 ul {
@@ -133,6 +154,13 @@ ul {
 .scores {
   margin-top: 1rem;
   box-shadow: var(--shadow-3);
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0.5rem;
 }
 
 li > span {
